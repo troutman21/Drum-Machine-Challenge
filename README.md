@@ -1,6 +1,7 @@
 ### `Challenge:`
 
-Your goal is to create sixteen <Button /> components that play sounds when the corresponding button is pressed.
+Your goal is to create sixteen <Button /> components that play sounds when the corresponding button is clicked
+.
 
 To get started, click the 'Clone or download' button above and select Download as ZIP.
 
