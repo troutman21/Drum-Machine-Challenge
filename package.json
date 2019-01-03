@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "drum_machine",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "build": "webpack --mode development",
     "start": "webpack-dev-server --open --mode development"
   },
-  "author": "",
+  "author": "Phillip Troutman",
   "license": "ISC",
   "dependencies": {
     "react": "^16.6.3",
