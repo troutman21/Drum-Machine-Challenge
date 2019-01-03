@@ -26,7 +26,7 @@ CHALLENGE 4:
 CHALLENGE 5:
   - Ok, lets really put these buttons to work. Now that we have the id of our buttons (which, if you remember, is really just the property name for the Audio objects we imported). Now it’s time to play that audio.
   - Take a look at the Audio API docs here: https://www.w3schools.com/jsref/dom_obj_audio.asp
-  Inside the "playSounds" method lets console log the "Sounds" object one more time. Now, using the id that we have retrieved from the event object lets select the Audio object stored in the Sounds object and run the play method on it. If everything is set up correctly you should not here a sound when you click on a button.
+  Inside the "playSounds" method lets console log the "Sounds" object one more time. Now, using the id that we have retrieved from the event object lets select the Audio object stored in the Sounds object and run the play method on it. If everything is set up correctly you should now here a sound when you click on a button.
   - Just to make our drum machine run a little smoother let’s add one more line of code that will reset the audio to play from the start if we click a button really fast. Take a look at the "currentTime" property on the Audio object. I think it might be in the documentation listed above... hmmmm.
 
 SUPER HARD BONUS CHALLENGE!!!!:
