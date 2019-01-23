@@ -5,7 +5,7 @@ CHALLENGE 0:
   Once you npm start you should see a gray background. Familiarize yourself with the code inside the "components" directory. We have two components. An app.js file and a button.js file. Look at each of those and think about how we'll need those to interact.
 
 CHALENGE 1:
-  - Now let’s see how all this existing code is working together. First let’s make our App component return one Button component (note: we have access the Button component because we are importing it at the top of the file). You should see a button appear on the screen! Take another look at the button.js file to see what is being returned from this component. Let's get crazy and add a few more button components to the return statement just to see what happens! ... Ok don't get too crazy. Let’s remove those so we can create them in more efficient manner.
+  - Now let’s see how all this existing code is working together. First let’s make our App component return one Button component (note: we have access to the Button component because we are importing it at the top of the file). You should see a button appear on the screen! Take another look at the button.js file to see what is being returned from this component. Let's get crazy and add a few more button components to the return statement just to see what happens! ... Ok don't get too crazy. Let’s remove those so we can create them in more efficient manner.
 
 CHALLENGE 2:
   - Ok let's get a little fancy here and render an array of Button components.
