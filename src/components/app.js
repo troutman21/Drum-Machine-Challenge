@@ -9,7 +9,7 @@ CHALENGE 1:
 
 CHALLENGE 2:
   - Ok let's get a little fancy here and render an array of Button components.
-  - Notice that we have imported a "Sounds" object at just below. That is an object full of Audio objects that can be played. Don't believe me?! Go ahead and log it to the console. By the time we are finished we will be able to play each of those sounds when we click a specific button, but first we need to create a button for each one of these sound objects.
+  - Notice that we have imported a "Sounds" object just below the challenges. That is an object full of Audio objects that can be played. Don't believe me?! Go ahead and log it to the console. By the time we are finished we will be able to play each of those sounds when we click a specific button, but first we need to create a button for each one of these sound objects.
   - We have created an array of sound names in our App components state. Iterate over that array and create a Button component for each one (Is this beginning to look familiar yet? hmmm...). If you have done it correctly, you should see 16 blank buttons on your screen.
 
   - Ok these buttons look pretty boring. Let’s give them some text. Let's add an attribute called "sound" to all the buttons when they are being created. Let’s make the value of the sound attribute be the values of the names in the "sounds" array that live in state. If you have done it correctly you should now see text in each of the buttons! But wait, how? Take a look in the button.js file, where we defined out Button component to see how it is rendering that data. BOOM! "props" OBJECT FOR THE WIN!
