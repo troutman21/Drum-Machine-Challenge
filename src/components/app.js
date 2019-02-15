@@ -49,7 +49,6 @@ class App extends Component {
 
   playSound(eventObj) {
     //code to be run when click event is fired goes below this line!
-    console.log(`i'm working foo!!!`);
 
   }
 
