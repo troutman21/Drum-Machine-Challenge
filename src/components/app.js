@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Sounds from '../assets/sounds.js';
+import Sounds from '../assets/sounds';
 
 class App extends Component {
   constructor() {
@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <div className="button-container">
         {/* Components that need to be returned from App go below here ! */}
-        <Button />
+        
       </div>
     );
   }
